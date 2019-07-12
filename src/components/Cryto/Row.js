@@ -7,7 +7,7 @@ const Row = ({ cryto }) => {
   const max = reduceWhich(cryto.quotes, (a, b) => b.price - a.price);
   return (
     <tr>
-      <td scope="row">{moment(cryto.date).format("DD-MMMM-YYYY")}</td>
+      <th scope="row">{moment(cryto.date).format("DD-MMMM-YYYY")}</th>
       <td>{cryto.currency}</td>
       <td>
         ${min.price} at {moment(min.time, "hmm").format("LT")}

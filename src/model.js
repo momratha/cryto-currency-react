@@ -1,6 +1,3 @@
-import { action, thunk } from "easy-peasy";
-import uuid from "uuid";
-
 export default {
   crytos: [
     {

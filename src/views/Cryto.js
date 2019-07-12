@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect } from "react";
-import { useStoreState, useActions } from "easy-peasy";
+import React, { Fragment } from "react";
+import { useStoreState } from "easy-peasy";
 import Table from "./../components/Cryto/Table";
 const Cryto = () => {
   const data = useStoreState(state => state.crytos);
